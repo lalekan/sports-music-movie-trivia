@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedCategory) {
             filteredQuestion = questionList.filter(questions => questions.category === selectedCategory)
             random(filteredQuestion)
-            console.log(filteredQuestion, " filtered")
             currentQuestionIndex = 0
             score1 = 0
             score2 = 0
@@ -155,13 +154,11 @@ document.addEventListener('DOMContentLoaded', () => {
     //Event listeners
     chooseCat.forEach((button) => {
         button.addEventListener('click', ()=> {
-            console.log(button, "firstLevel Button")
             chooseCat.forEach((btn) => {
                 btn.classList.remove("selected")
             })
             button.classList.add("selected")
             selectedCategory = button.id
-            console.log(selectedCategory, " CATTTTTTTTT")
         })
     })
 
