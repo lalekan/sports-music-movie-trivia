@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
             : `It's ${firstPlayerName}'s turn`
             displayQuestion() 
         } else {
-            alert("Please select a category")
+            messages.textContent = 'Please select a category'
         }
     }
 

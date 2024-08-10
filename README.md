@@ -1,32 +1,30 @@
-# sports-music-movie-trivia
+# Sport/Music/Movies Trivia
+
+![Gameplay Image](./Gameplay.png)
+
+### Background Information
+
+I chose this game because I am a big fan of sports, music and movies. This is a sport, music, and movies trivia game that allows the user to choose a category and and answer questions in that category. The user receives 10 points with every correct question. This is a single player and a two-player user game. for the single player, there is no winner, just point accumulation. for two players, there is a winner, loser, or it can be a tie.
+
+### Getting Started
+
+[Deployed game]()
+[Planning material]()
 
 
-Theme: Sport/Music/Movies Trivia
-User Stories
--	As a user, I want to see a landing page that says welcome to Lekan’s trivia quiz
--	As a user, I want the page to ask me to choose one or two players
--	As a user, I want to click on one of these three categories: sports, movies, or music
--	As a user, I want the questions displayed on the screen and a submission box
--	As a user, I want a voice to tell me I’m correct or wrong after submitting answers
--	As a user, I want to see my score displayed out of a total score
--	As a user, I want a pass fail for one player or win, tie, or lose for two players
--	As a user, I want to know when I have won the game
--	As a user, I want the option to quit and restart
-Pseudocode
--	Define variable used to track the state of the game
-o	Players should be able to enter their names
-o	Choose 1 or 2 players
-o	Players should be able to choose quiz categories
-o	Match result: win, lose, and tie
-o	Option for a bonus round if tie
-o	Audio: Read out the questions and options
-	If answer is correct, audio should say correct and clap
-o	Once the game is over the name of the winner needs to be displayed as the winner
-o	Total score from each player needs to be displayed beside their names
--	Define Required constant
-o	Sports, music, and movies will be the categories of the trivia/quiz
-o	Create a constant that creates an array of object, and each object will have a key value. 
-	Example. 
-•	const questionList = [{Category: “music” Question 1: “Who are you?”, Answer: “No one”}, ….]
-o	Reference to DOM displaying messages about starting the game, who the winner is, and whether the game will require a bonus round
--	We need to be able to handle players clicking buttons
+### Technologies Used
+
+HTML 
+CSS
+JAVASCRIPT
+GITHUB
+
+### References
+
+[HTML audio](https://www.w3schools.com/html/html5_audio.asp)
+[disable input](https://stackoverflow.com/questions/12896698/how-to-disable-an-input-field-using-javascript)
+[if else statement on one line](https://stackoverflow.com/questions/30179850/one-line-if-else-in-javascript)
+[Player takes turn](https://stackoverflow.com/questions/32537168/make-players-take-turns-playing-tic-tac-toe-in-javascript)
+[Math.random with loop](https://stackoverflow.com/questions/41206642/javascript-math-random-in-a-for-loop)
+[Filter array of nested objects](https://stackoverflow.com/questions/38375646/filtering-array-of-objects-with-arrays-based-on-nested-value)
+[text content vs value](https://teamtreehouse.com/community/value-vs-textcontent)

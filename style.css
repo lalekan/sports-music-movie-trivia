@@ -2,6 +2,12 @@
     background-color: burlywood;
     color: green;
 }
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 h1 {
     display: flex;
     justify-content: center;
@@ -9,11 +15,42 @@ h1 {
     border: 100px;
     color: green;
 }
+
 .form {
     display: flex;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
+.sub { 
+    margin-bottom: 60px;
+}
+
+button {
+    background-color: aliceblue;
+    color: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer ;
+    font-size: 14px;
+    margin: 5px;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 300px;
+}
 h5 {
     display: flex;
     justify-content: center;
@@ -22,6 +59,8 @@ h5 {
 .gameScore {
     display: flex;
     justify-content: center;
+    margin: 20px;
+    font-size: 18px;
 }
 
 
@@ -30,5 +69,28 @@ h5 {
     justify-content: left;
     margin: 60px;
  
+}
+
+#displayQ {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#messages {
+    font-size: 16px;
+    color: #722F37;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+#display1, #display2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: aquamarine;
 }
 
