@@ -8,7 +8,7 @@ I chose this game because I am a big fan of sports, music and movies. This is a 
 
 ### Getting Started
 
-[Deployed game](lalekan.github.io)
+[Deployed game](https://lalekan.github.io/sports-music-movie-trivia/)
 [Planning material](./project-planning-browsergame.pdf)
 
 
