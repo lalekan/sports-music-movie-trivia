@@ -83,12 +83,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const displayQuestion = () => {
         if (currentQuestionIndex < filteredQuestion.length) {
             const q = filteredQuestion[currentQuestionIndex]
-            // console.log(q, 'QQQQQQQ')
             displayQ.textContent = q.question
             answerInput.value = ''
         } else {
             endGame()
-            // console.log('This game should end')
         }
     }
 
@@ -182,7 +180,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     playerName1.addEventListener('input', () => {
         firstPlayerName = playerName1.value
-        // console.log(firstPlayerName + " I'm Firssst")
         return firstPlayerName
     })
 
@@ -192,8 +189,6 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     startGameButton.addEventListener('click', () => {
-        // firstPlayerName = playerName1.value.trim() || 'Player 1'
-        // secondPlayerName = playerName2.value.trim() || 'Player 2'
         if(!isOnePlayer){
             secondPlayerName = playerName2.value.trim()|| "Player 2"
         } else {
