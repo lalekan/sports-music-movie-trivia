@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+    <title>Sports-Music-Movie-Trivia</title>
+</head>
+<body>
+    <h1>Welcome to Sports-Music-Movie-Trivia</h1>
+    <h2 class="form">
+        <div class:"sub" id="choosePlayer">Choose number of players
+            <ol>
+                <button id="onePlayer">One Player</button>
+                <button id="twoPlayers">Two Players</button>
+            </ol>
+        </div>
+        <div class:"sub" id="enterNames">Enter your names
+            <ol>
+                <label for="player1">Enter Player one's name</label>
+                <input type="text" id="player1" name="first player" placeholder="Enter player 1 name"/>
+            </ol>
+            <ol>
+                <label for="player2">Enter Player two's name</label>
+                <input type="text" id="player2" name="second player" placeholder="Enter player 2 name"/>
+            </ol>
+            <ol>
+                <button id="startGame">Start Game</button>
+            </ol>
+        </div>
+        <div class:"sub" id="chooseCat">Choose Category
+            <ol>
+                <button id="sports">Sports</button>
+                <button id="music">Music</button>
+                <button id="movies">Movies</button>
+            </ol>
+        </div>
+    </h2>
+    <h2 class="theGame">
+        <div>
+            <h5 id="messages">Player one's turn</h5>
+            <h4 id="displayQ">Display Questions</h4>
+            <input type="text" id="answer" placeholder="Enter your answer here">
+            <button id="submitClick">Next</button>
+        </div>
+    </h2>
+
+    <h2 class="gameScore">
+        <div class="scoreDisplay">Score Board
+            <ol>
+                <div id="display1">Score : 0</div>
+                <div id="display2">Score : 0</div>
+            </ol>
+        </div>
+    </h2>
+
+</body>
+</html>

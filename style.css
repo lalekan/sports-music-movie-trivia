@@ -1,0 +1,34 @@
+* {
+    background-color: burlywood;
+    color: green;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    border: 100px;
+    color: green;
+}
+.form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+.gameScore {
+    display: flex;
+    justify-content: center;
+}
+
+
+#displayQ, #answer, #submitClick {
+    display: flex;
+    justify-content: left;
+    margin: 60px;
+ 
+}
+
