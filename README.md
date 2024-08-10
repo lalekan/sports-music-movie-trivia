@@ -8,8 +8,8 @@ I chose this game because I am a big fan of sports, music and movies. This is a 
 
 ### Getting Started
 
-[Deployed game]()
-[Planning material]()
+[Deployed game](lalekan.github.io)
+[Planning material](./project-planning-browsergame.pdf)
 
 
 ### Technologies Used
