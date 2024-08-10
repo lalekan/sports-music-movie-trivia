@@ -41,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Player count
     const onePlayer = document.querySelector('#onePlayer')
     const twoPlayers = document.querySelector('#twoPlayers')
+    const restart = document.querySelector("#playAgain")
 
     //Player Name variables
     let playerName1 = document.getElementById('player1')
@@ -78,6 +79,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
+    const restartGame = () => {
+        window.location.reload()
+    }
 
     //function to display next questions
     const displayQuestion = () => {
@@ -195,4 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     submitButton.addEventListener('click', handleAnswer)
+
+    restart.addEventListener('click', restartGame)
 })
+
